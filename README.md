@@ -8,4 +8,4 @@ A description of cocoapods-ocean_modulemap.
 
 ## Usage
 
-    $ pod spec ocean_modulemap [文件目录]
+    $ pod ocean-modulemap [文件目录]

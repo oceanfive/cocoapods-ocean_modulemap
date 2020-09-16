@@ -195,11 +195,12 @@ framework module #{framework_name} {
   #{normal_headers_contents.join("\n  ")}
 
   export *
-  module * { export * }
 }
         MODULE_MAP
 
-        puts '\n generate_moudulemap_content result: '
+        # TODO: module * { export * }
+
+        puts "\n generate_moudulemap_content result:"
         puts content
 
         content
